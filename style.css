@@ -299,16 +299,14 @@ footer ul li{
     .mMenu li{  
         top:0;
         left:0;  
-       
         max-height: 10px;
-        margin-left: 100px;
         background-color: var(--background);
-        text-align:left;
-        display: inline;
         border-top: solid var(--primary) 0px;
     }
-    .mMenu li a{ 
-        margin-left:50px;
+    ul#menu{ 
+        display:inline-flex;
+        position: static;
+        width: 40%;
     }
     #primo{
         width:560px;
@@ -332,7 +330,8 @@ footer ul li{
     }
     #menu{
         visibility:visible;
-        cursor: pointer;    
+        cursor: pointer; 
+          
         }
     #menu li a{
         font-family: var(--bebas);
@@ -343,7 +342,7 @@ footer ul li{
     #menu li{
         background-color: var(--background);
         list-style: none;
-        display:inline;
+        display:inline; 
     }
     
     #menu .underline{
