@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YUMMY nouilles</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet"> 
+        <script src="navbar.js"></script> 
+    </head>
+    <body>
+        <div class="sizing">
+            <header id="heady"> 
+                <nav>
+                    <img src="images/logo.png" id="logoS">
+                    <a id="openBtn" onclick="openMenu()">
+                        <span class="burger-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </a>
+                    <ul id="menu"class="">
+                        <li><a onclick="closeMenu()">X</a></li>
+                        <li><a onclick="closeMenu()" href="index.html">Acceuil</a></li>
+                        <li><a onclick="closeMenu()" href="#"class="underline">Menu</a></li>
+                        <li><a onclick="closeMenu()" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <!-- Barre de CTA -->
+                <section class="barCta">
+                    <p class="ctaText">Commandez maintenant !</p>
+                    <div class="cta bebaslight">
+                        <a class="cLight">Click & collect</a>
+                    </div>
+                </section>
+                <!-- Menu -->
+                <section id="carte">
+
+                    <h1 class="titre1">Menu</h1>
+                    <p class="text dspNo">Nos menus sont <span class="red">communs</span> a tous nos restaurants</p>
+                    <article>
+                        <img src="images/logo.png" id="logM">
+                        <h2 class="titre2 underline">Entrées</h2>
+                        <article class="gpm">
+                            <p class="bold p12">Jiaozi faits maison végétariens</p>
+                            <p class="dspNo text p12">Raviolis fourrés au maïs et champignons</p>
+                        </article>
+                        <article class="gpm">
+                            <p class="bold p12">Tofu frit</p>
+                            <p class="dspNo text p12">Raviolis fourrés au maïs et champignons</p>
+                        </article>
+                        <article class="gpm">
+                            <p class="bold p12">Xiaolongbao à la truffe</p>
+                            <p class="dspNo text p12">Raviolis fourrés au maïs et champignons</p>
+                        </article>
+                        <h2 class="titre2 underline">Plats</h2>
+                        <article class="gpm">
+                            <p class="bold p12">Biang biang mian végétarienne</p>
+                            <p class="dspNo text p12">Épaisses nouilles faites à la main accompagnées d’un bouillon</p>
+                        </article>
+                        <article class="gpm">
+                        <p class="bold p12">Soupe de nouilles au boeuf</p>
+                        <p class="dspNo text p12">Raviolis fourrés au maïs et champignons</p>
+                        </article>
+                        <article class="gpm">
+                        <p class="bold p12">Nouilles froides au sésame</p>
+                        <p class="dspNo text p12">Nouilles froides au poulet, sauce sésame</p>
+                        </article>
+                        <h2 class="titre2 underline">Desserts</h2>
+                        <article class="gpm">
+                        <p class="bold p12">Pudding au tofu</p>
+                        <p class="dspNo text p12">Tofu soyeux baignant dans un sirop au gingembre</p>
+                        </article>
+                        <h2 class="titre2 underline">Boissons</h2>
+                        <p class="bold p12">Taïwan Beer</p>
+                        <p class="bold p12">Bubble tea à la mûre</p>
+                        <p class="bold p12">Thé Oolong</p>
+                        
+                    </article>
+                    
+
+                </section>
+                
+                
+                
+                <section  class="contact">
+                    <H2 class="titre2 underline">Contactez-nous</H2>
+                    <p class="text centre">Vous souhaitez nous poser une
+                    question, nous faire un
+                    feedback, ou tout simplement
+                    nous contacter ?<br>
+                    Écrivez-nous à 
+                    <strong><a href="mailto:yummy@noodles.fr">yummy@noodles.fr </a></strong>ou
+                    appelez nous au <strong><a href="tel: 01 13 86 23 42">01 13 86 23 42</a></strong></p>
+                    </section>   
+            </main>
+            <footer id="pied">
+                <ul>
+                    <li><img src="images/instagram.png" alt="instagram" class="icoreseau"></li>
+                    <li><img src="images/facebook-circle.png"alt="facebook"class="icoreseau"></li>
+                    <li><img src="images/marker.png"alt="maps"class="icoreseau"></li>
+                </ul>
+            </footer>
+        </div>
+</body>
+</html> 

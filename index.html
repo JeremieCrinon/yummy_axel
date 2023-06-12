@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YUMMY nouilles</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script src="navbar.js"></script>  
+    </head>
+    <body>
+        <div class="sizing">
+            <header id="heady"> 
+                <nav>
+                    <img src="images/logo.png" id="logoS">
+                    
+                    <a id="openBtn" onclick="openMenu()">
+                        <span class="burger-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </a>
+                    <ul id="menu"class="">
+                        <li><a onclick="closeMenu()"href="#">X</a></li>
+                        <li><a onclick="closeMenu()" href="#"class="underline">Acceuil</a></li>
+                        <li><a onclick="closeMenu()" href="menu.html">Menu</a></li>
+                        <li><a onclick="closeMenu()" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                
+                <!-- Logo -->
+                <section id="primo">
+                    <article><h1 class="titre1">Yummy Nouilles</h1>
+                    <p id="promesse"class="text">Les nouilles les plus <span class="red">yummy</span> de tout paris</p>
+                    </article>
+                    <div class="cta bebaslight centre"id="ctPrimo">
+                        <a class="cLight">Click & collect</a>
+                    </div>
+                    <img src="images/logo.png" id="logoXL">
+                </section>
+                <!-- Restaurants -->
+                <section id="resto">
+                    <h2 class="titre2 underline" id="adr">Nos adresses</h2>
+                    <div id="contenaire1">
+                        <div class="bResto">
+                            <img src="images/yumynoodle.png"class="photo">
+                            <h3 class="bold">Yummy Noodle</h3>
+                            <address class="text">
+                                185 rue de Lancry<br>
+                                75010 Paris
+                            </address>
+                        </div>
+                        <div class="bResto">
+                            <img src="images/yunoo.png"class="photo">
+                            <h3 class="bold">Yu Noodle My</h3>
+                            <address class="text">
+                                350 rue Saint-Guillaume<br>
+                                75007 Paris
+                            </address>
+                        </div>
+                        <div class="bResto">
+                            <img src="images/lesyum.png"class="photo">
+                            <h3 class="bold">Les Yummy Nouilles</h3>
+                            <address class="text">
+                                208 rue au Maire<br>
+                                75003 Paris
+                            </address>
+                        </div>
+                    </div>
+                </section>  
+                <!-- Barre de CTA -->
+                <section class="barCta">
+                    <p class="ctaText">Commandez maintenant !</p>
+                    <div class="cta bebaslight">
+                        <a class="cLight">Click & collect</a>
+                    </div>
+                </section>
+                <!-- savoir-faire -->
+                <section id="sFaire">
+                    <H2 class="titre2 underline">Notre savoir-faire</H2>
+                    <p class="text centre"id="texSf">Depuis près de 10 ans maintenant, nous partageons avec vous les meilleures recettes. Nos plats ont tous été conçus, et affinés au fil des années et des goûts. Nous vous apportons le meilleur de l’Asie de l’Est en plein coeur de Paris. Chaque année, nous reprenons tous nos plats pour les améliorer, les modifier et qu’ils vous plaisent toujours plus. Nous espérons que vous vous régalerez en dégustant nos plats.</p>
+                </section>
+                <!-- réseau sociaux -->
+                <section id="rSociaux">
+                    <h2 class="titre2 underline" >Retrouvez-nous sur les reseaux sociaux</h2>
+                    <div id="pSoc">
+                        <img src="images/biang_biang.png" class="photoSociaux">
+                        <img src="images/noodles.png" class="photoSociaux">
+                        <img src="images/taiwan_beer.png" class="photoSociaux">
+                        <img src="images/chef_making_noodles.png" class="photoSociaux">
+                        <img src="images/maneki_neko.png" class="photoSociaux">
+                        <img src="images/xiaolongbao.png" class="photoSociaux">  
+                    </div>
+                </section>
+                <!-- contact -->
+                
+                <section class="contact">
+                    <H2 class="titre2 underline">Contactez-nous</H2>
+                    
+                    <p class="text centre">Vous souhaitez nous poser une
+                    question, nous faire un
+                    feedback, ou tout simplement
+                    nous contacter ?<br>
+                    Écrivez-nous à <strong><a href="mailto:yummy@noodles.fr">yummy@noodles.fr </a></strong>ou
+                    appelez nous au <strong><a href="tel: 01 13 86 23 42">01 13 86 23 42</a></strong></p>
+                    </section>   
+            </main>
+            <footer id="pied">
+                <ul>
+                    <li><img src="images/instagram.png" alt="instagram" class="icoreseau"></li>
+                    <li><img src="images/facebook-circle.png"alt="facebook"class="icoreseau"></li>
+                    <li><img src="images/marker.png"alt="maps"class="icoreseau"></li>
+                </ul>
+            </footer>
+        </div>
+</body>
+</html> 
