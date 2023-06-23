@@ -4,3 +4,5 @@
 /ajoly_yummy_css.zip
 /ajoly_yummy_html.zip
 /ajoly_yummy_responsive.zip
+node_modules/
+/package-lock.json
